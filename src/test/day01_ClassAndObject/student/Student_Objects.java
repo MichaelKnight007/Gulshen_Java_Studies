@@ -1,5 +1,7 @@
 package test.day01_ClassAndObject.student;
 
+import test.day02_OOP.encapsulation.Student_Encapsulated;
+
 public class Student_Objects {
 
     public static void main(String[] args) {
@@ -14,7 +16,10 @@ public class Student_Objects {
 
         Student_WithConstructor student_4_Constructor=new Student_WithConstructor("Michael","Knight",52, "michael@gmail.com", 'M');
         Student_WithConstructor student_5_Constructor=new Student_WithConstructor();
-        ;
+
+
+        Student_Encapsulated student_6_Encapsulated=new Student_Encapsulated("Gülşen", "Yurdakul", 18, "adsfa@gmail.com", 'F',250000,true);
+
 
         System.out.println("student_1 = " + student_1);
         //student_1 = Student_RegularClass{age=0, name='null', surname='null', email='null', gender='null', salary=0.0, isMarried=false}
@@ -62,6 +67,14 @@ public class Student_Objects {
         student_2.name = "                          John";
 
         System.out.println("student_2 = " + student_2);
+
+        student_6_Encapsulated.setName("EKE");
+        student_6_Encapsulated.setAge(23);
+
+        //System.out.println("student_6_Encapsulated = " + student_6_Encapsulated);
+
+        System.out.println("==================================================================");
+        System.out.println("student_6_Encapsulated.getName() = " + student_6_Encapsulated.getName());
 
 
 

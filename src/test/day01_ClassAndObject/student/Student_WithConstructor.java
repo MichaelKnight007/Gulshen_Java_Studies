@@ -5,25 +5,21 @@ public class Student_WithConstructor {
     /*
     --------------------------- Static Blocks ---------------------------------------
      */
-    static{
+    static {
         System.out.println(" Bu constructor class'tır.");
     }
-
 
 
     /*
    --------------------------- Fields ---------------------------------------
     */
     String name;
-    String surname;
-    int age;
-    String email;
-    char gender;
-    double salary;
-    boolean isMarried;
-
-
-
+    public String surname;
+    public int age;
+    public String email;
+    public char gender;
+    public double salary;
+    public boolean isMarried;
 
 
     // --------------------------- Constructors ---------------------------------------
